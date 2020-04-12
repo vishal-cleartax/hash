@@ -29,4 +29,6 @@ jobs:
     # Runs Electron build
     - name: Electron Builder Action
       uses: samuelmeuli/action-electron-builder@v1.3.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
 
